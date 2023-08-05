@@ -29,7 +29,7 @@ function App() {
       plan: "PLUS",
       price: "$9",
       user: "5 User",
-      highlight: true,
+      highlight: false,
       userEnabler: true,
       storage: "50GB Storage",
       storageEnabler: true,
@@ -51,7 +51,7 @@ function App() {
       plan: "PRO",
       price: "$49",
       user: "Unlimited User",
-      highlight: true,
+      highlight: false,
       userEnabler: true,
       storage: "50GB Storage",
       storageEnabler: true,
@@ -72,6 +72,7 @@ function App() {
   ];
   return (
     <>
+    <h1>Price Card Using React</h1>
       <section className="pricing py-5">
         <div className="container">
           <div className="row">

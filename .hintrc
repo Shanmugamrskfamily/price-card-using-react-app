@@ -7,9 +7,11 @@
       "default",
       {
         "ignore": [
-          "meta[name=theme-color]"
+          "meta[name=theme-color]",
+          "link[referrerpolicy]"
         ]
       }
-    ]
+    ],
+    "manifest-file-extension": "off"
   }
 }

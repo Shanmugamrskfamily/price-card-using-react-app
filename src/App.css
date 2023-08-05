@@ -61,3 +61,16 @@ section.pricing {
     opacity: 1;
   }
 }
+h1 {
+  display: block;
+  text-align: center;
+  margin: 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(228, 69, 86, 1) 14%,
+    rgba(234, 61, 140, 1) 30%,
+    rgba(125, 81, 195, 1) 57%,
+    rgb(88, 69, 228) 83%
+  );
+  color: whitesmoke;
+}
